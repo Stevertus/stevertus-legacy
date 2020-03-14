@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script>
+      (function() {
+        var redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect != location.href) {
+          history.replaceState(null, null, redirect);
+        }
+      })();
+    </script>
+
+    <base href="/" />
+
+    <meta charset="utf-8" />
+    <title>Tools and Packages by Stevertus</title>
+    <!--<meta name="description" content="Minecraft Script is a powerful programming language for Minecraft 1.13. The normal Mapmaking toolset is extended by If-statements, Modals, loops, variables and much more. Try it in the online playground today and upgrade your maps to a whole new level.">-->
+    <meta
+      name="description"
+      content="dManager is a desktop app that installs, updates and manages your Minecraft 1.13 Datapacks! You can discover new datapacks, install them easier as ever before and publish your own datapacks."
+    />
+    <meta
+      name="og:description"
+      content="dManager is a desktop app that installs, updates and manages your Minecraft 1.13 Datapacks! You can discover new datapacks, install them easier as ever before and publish your own datapacks."
+    />
+    <meta
+      name="keywords"
+      content="Minecraft, McScript, Script, programming, language, tools, mapmaking, maps, 1.13, Datapacks, JavaScript"
+    />
+    <meta name="author" content="Stevertus" />
+    <meta
+      name="og:title"
+      content="dManager - the 1.13 datapack installer, updater and manager"
+    />
+    <meta
+      name="og:image"
+      content="https://stevertus.com/assets/dManager-banner.png"
+    />
+    <meta
+      name="image"
+      content="https://stevertus.com/assets/dManager-banner.png"
+    />
+    <meta name="og:url" content="https://stevertus.com" />
+    <base href="/" />
+    <meta
+      name="google-site-verification"
+      content="XYt-YKy4cAPm_hbNqhqPTjmftmOm-hsRes473HJo5dA"
+    />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link
+      id="appFavicon"
+      rel="icon"
+      type="image/png"
+      href="assets/icons/16.png"
+    />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="msapplication-starturl" content="/" />
+    <meta name="theme-color" content="#40dcb2" />
+    <link rel="manifest" href="/manifest.json" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link href="styles.61efb52d38267094492b.bundle.css" rel="stylesheet" />
+  </head>
+  <body>
+    <app-root></app-root
+    ><noscript
+      ><h1>Please enable JavaScript to get access to the content!</h1>
+      Minecraft Script is a programming language for developers of mcfunctions,
+      Minecraft maps and packages. The .mcscript files are therefore compiled
+      and generated to the function format. This enables the developer extended
+      possibilities, such as Modals, Loops, Varibles, Constants and
+      Command-Wrapping.<br />Minecraft Cam is a small vanilla package that makes
+      the usage of custom camera paths much easier in 1.13. It is as simple as
+      setting your start point, end point and entering the duration and the
+      whole path will be calculated for you. But this tool is not only extremly
+      helpful making videos and cinematics, it has an api for mapmakers and
+      developers who want to intregrate a camera path into their
+      creations.</noscript
+    >
+    <script
+      type="text/javascript"
+      src="inline.bb2503d6f01d26cf7b4d.bundle.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="polyfills.986186cc739381743ac4.bundle.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="main.8b2ae041f4aa24ddd2be.bundle.js"
+    ></script>
+  </body>
+</html>
